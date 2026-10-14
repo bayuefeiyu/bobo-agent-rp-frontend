@@ -4,6 +4,8 @@
 
 当前交付的是可运行的开发基础与需求交接，**不是已经完成的新版产品**。框架和视觉方向尚未选定；默认页面只是无样式的连接诊断页。
 
+正式任务已写入 [TASK.md](TASK.md)。接手者先完成完整设计与实施方案，提交后**等待用户明确确认二者，再开始实现**。Agent RP、互动小说与持续创作的审美目标也是正式要求，不预设具体美化措施。可直接发送[启动提示词](prompts/START-HERE.md)开始任务。
+
 ## 开始
 
 需要 Node.js 24+。当前没有第三方依赖；可先 `npm ci` 验证锁文件，然后执行：
@@ -31,6 +33,8 @@ npm run dev:launcher -- --backend=http://127.0.0.1:启动器端口
 
 ## 阅读顺序
 
+先读 [正式任务书](TASK.md)，明确当前阶段与用户确认节点，再依次阅读：
+
 1. [产品任务与边界](docs/PRODUCT-BRIEF.md)
 2. [全功能交接](docs/FUNCTIONAL-SCOPE.md)：所有官方前端均需重做
 3. [API 目录](packages/rp-web-contract/API.md) 与 [逐接口联调清单](docs/API-COVERAGE.md)
@@ -47,7 +51,7 @@ npm run dev:launcher -- --backend=http://127.0.0.1:启动器端口
 | fixtures/ | 合成产品场景；明确区分核心 DTO 与非 API 的设计数据 |
 | tools/ | 独立开发服务器、API 代理、有限状态模拟器、构建与一致性检查 |
 | docs/ | 产品、功能、接口缺口、验收、集成与工作记录模板 |
-| prompts/ | 交接提示词 |
+| TASK.md / prompts/ | 正式任务书与启动提示词，明确设计和实施计划的确认节点 |
 | test/ | 工作区自检，不代表新版产品已经验收 |
 
 ## 明确限制
