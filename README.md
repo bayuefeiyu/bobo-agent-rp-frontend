@@ -60,4 +60,4 @@ npm run dev:launcher -- --backend=http://127.0.0.1:启动器端口
 
 这是开发材料与工作区隔离，不是安全沙箱。给 Agent 单独打开本目录，并仅授予本目录访问权限；若需要强制隔离，请在独立容器或机器运行。文件中的规则不能限制拥有整机权限的进程。
 
-没有为本仓库配置远端或推送。原项目不被修改；最终集成在单独评审后由维护者实施。
+独立仓库地址：[bayuefeiyu/bobo-agent-rp-frontend](https://github.com/bayuefeiyu/bobo-agent-rp-frontend)。原项目不被修改；最终集成在单独评审后由维护者实施。
