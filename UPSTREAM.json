@@ -1,0 +1,50 @@
+{
+  "repository": "https://github.com/bayuefeiyu/bobo-agent-rp",
+  "commit": "6a038560d45951cc940bcbfd3d4282178bae7fea",
+  "apiVersion": "1.0",
+  "hostVersion": "1.0",
+  "runtimeVersion": "2.0.0",
+  "purpose": "Public contract and framework-neutral SDK only; no prior UI or repository history.",
+  "files": [
+    {
+      "path": "packages/rp-web-contract/API.md",
+      "sha256": "1a4e09ba5ab3739bcc2eb6177209d263365be92485573e6c52cbc9bc974320b5"
+    },
+    {
+      "path": "packages/rp-web-contract/frontend.mjs",
+      "sha256": "4e2b5c50b8810b2cba090c7c0d9e7999b0885dfc31d38d5d16981c5466e6be92"
+    },
+    {
+      "path": "packages/rp-web-contract/index.d.mts",
+      "sha256": "3faae7e997b7774ab40330bcf08274723050fefc009bec036557f4aa77a90022"
+    },
+    {
+      "path": "packages/rp-web-contract/index.mjs",
+      "sha256": "33fe3093a809db2579eaf39bd0031ed4fb353c7b8d04e8d6f8c4d228bc9a8631"
+    },
+    {
+      "path": "packages/rp-web-contract/operations.json",
+      "sha256": "628bf2be50a461a2e38cc61f91cac3a71b6c8896115575a1de4013e1d9db9fbb"
+    },
+    {
+      "path": "packages/rp-web-contract/operations.mjs",
+      "sha256": "54a1fe225d6941db89556370652b8be10149c13fb3ccab6f0df210b3f89b44bb"
+    },
+    {
+      "path": "packages/rp-web-contract/schemas.json",
+      "sha256": "99593bf30b0a71cb0fa4d3206fbe75ad718e1c9f77d13c4279e6dbbf7e7ed397"
+    },
+    {
+      "path": "packages/rp-web-client/index.mjs",
+      "sha256": "2121c77902f8259f72d7848ebef24d755e4f37f5ae7bec84b869b1efbc7910dc"
+    },
+    {
+      "path": "packages/rp-web-client/index.d.mts",
+      "sha256": "5a4f0eb2d823f4ed8413a9bbadf4f7ad51b5466e54568a919724e7a45e8acdf1"
+    },
+    {
+      "path": "packages/rp-web-client/presentation-host.mjs",
+      "sha256": "e9ff1a5f924c45c318b3c5649cd84b78e6fd23fa36ed7e291715d30a79fb5311"
+    }
+  ]
+}
